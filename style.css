@@ -1,0 +1,63 @@
+/* Main Container */
+.container 
+{
+    width: 800px;
+    margin: auto;
+}
+/* Forom Container */
+#logForm 
+{
+    position: absolute;
+    background: rgba(0, 0, 0, .2);
+    width: 250px;
+    padding-top: 30px;
+    display:none;  
+}
+/* Form Input without buttons */
+input:not([type=button])
+{   
+    width: 80%;
+    margin-left: 25px;
+}
+/* Form Only Buttons */
+input[type=button] 
+{
+    margin-right: 25px;
+    width: 100%;
+    color: orange;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .2);
+    padding: 10px;
+    /* display: inline; */
+}
+/* Form Input sections */
+input:focus 
+{
+    border: 3px solid orange;
+    background: lightyellow;
+    padding: 5px;
+}
+/* Main Image */
+img 
+{
+    width:100%;
+
+    
+}
+/* Form Input Password confirm */
+#conf-pass 
+{
+    display: none;
+}
+/* Register and Login Buttons */
+#bb button
+{
+    width: 250px;
+    position: relative;
+    top: 120px;
+    left: 140px;
+    padding: 10px;
+    color: orange;
+    font-size: 16px;
+    background: rgba(0, 0, 0, .2);
+}

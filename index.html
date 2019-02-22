@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Database Template</title>
+    </head>
+    
+    <body>
+      <!-- Title Container -->
+      <div class="container container-fluid">
+          <h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem eveniet et nemo, consectetur debitis dolores unde repudiandae cumque suscipit libero ipsam. 
+            Nam, ad ipsam dignissimos eaque hic quae ea praesentium.
+          </p>
+            <!-- Login and Register Buttons -->
+          <div id=bb >
+            <button id=logBtn onclick=fnLogin() >Login</button>
+            <button id=regBtn onclick=fnRegister() >Register</button>
+            <img src="image/social.jpg" alt="Social communication" class=social>
+          </div>
+
+          <!-- Forms -->
+          <div id="logForm">
+          <form method=post id=form>
+            <input type=text text=username placeholder=Username id=user-name ><br>
+            <input type=password text=password placeholder=Password id=password><br>
+            <input type=password text=password placeholder="Confirm Pasword" id=conf-pass><br>
+            <input type=button text=button value=Submit class=submit>
+            <input type=button text=button value=Cancel class=cancel onclick='closeForm()'>
+          </form>
+          </div> 
+          
+        </div>
+
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="javascript.js"></script>
+
+    </body>
+</html>
